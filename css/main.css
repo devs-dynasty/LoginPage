@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F8F8;
+}
+
+.form__section {
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.heading {
+    width: 19rem;
+    margin-bottom: 0.5rem;
+}
+
+.heading h1 {
+    font-size: 2.1rem;
+    color: #030303;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.heading p {
+    font-size: 0.9rem;
+    color: #636364;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+.form__group {
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1.3rem;
+}
+
+.form__group label {
+    font-size: 0.9rem;
+    color: #181818;
+    font-weight: 500;
+    margin-top: 0.38rem;
+}
+
+.form__group input, .form__group button, .google__btn button {
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #C4C4C4;
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.9rem;
+    color: #636364;
+    font-weight: 300;
+    outline: none;
+}
+
+.form__group button {
+    background-color: #EA454C;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+}
+
+.flex_c {
+    display: flex;
+    justify-content: space-between;
+    width: 19rem;
+    gap: 5.5rem;
+    margin-left: 1.3rem;
+}
+
+.flex_c .form__group {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex_c .form__group label, .flex_c .form__group a{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.flex_c .form__group input {
+    width: initial;
+    height: initial;
+}
+
+.flex_c .form__group a {
+    margin-left: 0.3rem;
+    color: #181818;
+    font-weight: 500;
+}
+
+.google__btn {
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.3rem;
+}
+
+.google__btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    color: #000000
+}
+
+.signup {
+    text-align: center;
+}
+
+.signup p {
+    font-size: 0.7rem;
+    color: #595959;
+    font-weight: 500;
+    margin-top: 0.38rem;
+}
+
+.signup a {
+    color: #EA454C;
+    font-weight: 500;
+}
