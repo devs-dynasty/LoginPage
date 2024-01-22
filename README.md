@@ -15,7 +15,9 @@ A login form page from a Figma template
 
 ## Project Owner
 
-- **Name:** Nanda
+- **Name:** Navruzshoh Daleri
+- **GitHub:** [GitHub Profile](https://github.com/thenavik)
+
 
 ## Built With
 - HTML
@@ -33,10 +35,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
   ```
-   git clone https://github.com/devs-dynasty/NikeShoe.git
+   git clone https://github.com/devs-dynasty/LoginPage.git
   ```
   ```
-   cd NikeShoe
+   cd LoginPage
   ```
 
 ## 🤝 Contributing
